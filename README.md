@@ -1,7 +1,7 @@
 # 🎓 CampusConnect – College Community Web App
 
 **CampusConnect** is a full-stack college community web platform built using HTML, CSS, JavaScript (frontend) and PHP with MySQL (backend). It enables students to explore and register for campus events, while admins manage events through a secure dashboard.
-{Campus Connect}{https://github.com/SHAIKMATHIN647/CampusConnect/blob/0bc51160e391d8611a9e0a0ba8ece04ba749efcc/campevent.png}
+(https://github.com/SHAIKMATHIN647/CampusConnect/blob/0bc51160e391d8611a9e0a0ba8ece04ba749efcc/campevent.png)
 
 ---
 
