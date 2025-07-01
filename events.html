@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CampusConnect - Events</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f8fb;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #004d99;
+      padding: 20px 40px;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+    main {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h2 {
+      color: #004d99;
+      margin-bottom: 30px;
+    }
+    .event-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .event-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+      padding: 15px;
+    }
+    .event-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .event-card h3 {
+      margin: 10px 0 5px;
+      color: #004d99;
+    }
+    .event-card p {
+      font-size: 14px;
+      color: #333;
+    }
+    .event-card span {
+      font-size: 13px;
+      color: #555;
+    }
+    .btn {
+      margin-top: 10px;
+      padding: 10px 16px;
+      background-color: #004d99;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #004d99;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CampusConnect</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="notices.html">Notices</a>
+      <a href="projects.html">Projects</a>
+      <a href="resources.html">Resources</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Upcoming Events</h2>
+    <div class="event-grid">
+
+      <!-- Sample Event 1 -->
+      <div class="event-card">
+        <img src="images/ai.png" alt="AI Tech Talk">
+        <h3>AI Tech Talk</h3>
+        <p>Explore future AI trends with top speakers.</p>
+        <span>📅 10 July 2025 | 🏛 Seminar Hall A</span>
+        <form action="php/register-event.php" method="POST">
+          <input type="hidden" name="event_id" value="1">
+          <button type="submit" class="btn">Register</button>
+        </form>
+      </div>
+
+      <!-- Sample Event 2 -->
+      <div class="event-card">
+        <img src="images/hack.jpg" alt="Hackathon">
+        <h3>CodeSprint 2.0</h3>
+        <p>48-hour inter-college coding competition.</p>
+        <span>📅 12 July 2025 | 🏛 Main Auditorium</span>
+        <form action="php/register-event.php" method="POST">
+          <input type="hidden" name="event_id" value="2">
+          <button type="submit" class="btn">Register</button>
+        </form>
+      </div>
+
+      <!-- Sample Event 3 -->
+      <div class="event-card">
+        <img src="images/third.jpg" alt="Fusion Beats">
+        <h3>Fusion Beats</h3>
+        <p>Evening of cultural performances and food stalls.</p>
+        <span>📅 14 July 2025 | 🏛 College Grounds</span>
+        <form action="php/register-event.php" method="POST">
+          <input type="hidden" name="event_id" value="3">
+          <button type="submit" class="btn">Register</button>
+        </form>
+      </div>
+
+      <!-- Sample Event 4 -->
+      <div class="event-card">
+        <img src="images/robo.jpg" alt="Robowar">
+        <h3>RoboWars</h3>
+        <p>Mechanical bots clash in the ultimate tech battle.</p>
+        <span>📅 18 July 2025 | 🏛 Block C Lab</span>
+        <form action="php/register-event.php" method="POST">
+          <input type="hidden" name="event_id" value="4">
+          <button type="submit" class="btn">Register</button>
+        </form>
+      </div>
+
+      <!-- Sample Event 5 -->
+      <div class="event-card">
+        <img src="images/startup.png" alt="Startup Pitch Fest">
+        <h3>Startup Pitch Fest</h3>
+        <p>Present your startup idea to real investors.</p>
+        <span>📅 20 July 2025 | 🏛 Seminar Hall B</span>
+        <form action="php/register-event.php" method="POST">
+          <input type="hidden" name="event_id" value="5">
+          <button type="submit" class="btn">Register</button>
+        </form>
+      </div>
+
+      <!-- Sample Event 6 -->
+      <div class="event-card">
+        <img src="images/team.jpg" alt="Lit Fest">
+        <h3>LitFest 2025</h3>
+        <p>Debates, quizzes and literary performances.</p>
+        <span>📅 22 July 2025 | 🏛 Library Lawn</span>
+        <form action="php/register-event.php" method="POST">
+          <input type="hidden" name="event_id" value="6">
+          <button type="submit" class="btn">Register</button>
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 CampusConnect | All Rights Reserved
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Event - CampusConnect</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h2>Add New Event</h2>
+    <nav>
+      <a href="dashboard-admin.html">Back to Dashboard</a>
+    </nav>
+  </header>
+  <main>
+    <form action="php/add-event.php" method="POST">
+      <input type="text" name="title" placeholder="Event Title" required>
+      <textarea name="description" placeholder="Event Description" required></textarea>
+      <input type="date" name="date" required>
+      <input type="text" name="location" placeholder="Event Location" required>
+      <button type="submit">Add Event</button>
+    </form>
+  </main>
+</body>
+</html>
