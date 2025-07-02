@@ -48,10 +48,6 @@ git clone https://github.com/shaikmathin647/campusconnect.git
 5. Go to [http://localhost/campusconnect/login.html](http://localhost/campusconnect/login.html) to use the project
 
 ---
-
-https://github.com/SHAIKMATHIN647/CampusConnect/blob/main/campevent.png?raw=true
-
----
 ## 🙌 Author
 Made with 💙 by **[Shaik Mathin]**  
 📧 shaikmathin647@gmail.com
